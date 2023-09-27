@@ -13,17 +13,17 @@ body {
 #countdown {
     text-align: center;
     color: white;
-    font-size: 10px; /* Aumenta el tamaño de la fuente */
-    padding: 20px; /* Añade padding al contenedor */
-    width: 50%; /* Ajusta el ancho del contenedor a un 80% del contenedor padre */
-    max-width: 100px; /* Establece un ancho máximo para el contenedor */
+    font-size: 28px; /* Disminuye el tamaño de la fuente */
+    padding: 15px; /* Disminuye el padding del contenedor */
+    width: 60%; /* Disminuye el ancho del contenedor a un 60% del contenedor padre */
+    max-width: 400px; /* Disminuye el ancho máximo para el contenedor */
 }
 
 #countdown div {
     display: inline-block;
-    padding: 5px; /* Aumenta el padding de cada elemento */
+    padding: 15px; /* Disminuye el padding de cada elemento */
     background-color: rgba(0,0,0,0.5);
-    margin: 10px;
-    border-radius: 10px;
+    margin: 8px; /* Disminuye el margen entre los elementos */
+    border-radius: 8px; /* Disminuye el borde redondeado de los cuadros */
 }
 
