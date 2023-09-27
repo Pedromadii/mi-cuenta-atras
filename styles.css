@@ -18,8 +18,8 @@ body {
 
 #countdown div {
     display: inline-block;
-    padding: 20px;
+    padding: 200px;
     background-color: rgba(0,0,0,0.5);
-    margin: 10px;
-    border-radius: 10px;
+    margin: 100px;
+    border-radius: 100px;
 }
