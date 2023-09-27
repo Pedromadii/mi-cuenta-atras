@@ -1,20 +1,18 @@
-// Establece la fecha y hora de finalización de la cuenta atrás
-var countDownDate = new Date("Oct 8, 2023 16:00:00").getTime();
+function updateCountdown() {
+    const targetDate = new Date("2023-10-08T00:00:00"); // Configura la fecha de destino aquí
+    const currentDate = new Date();
+    const totalSeconds = (targetDate - currentDate) / 1000;
 
-// Actualiza la cuenta atrás cada segundo
-var x = setInterval(function() {
-  var now = new Date().getTime();
-  var distance = countDownDate - now;
-  
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  
-  document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-  
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("countdown").innerHTML = "EXPIRED";
-  }
-}, 1000);
+    const days = Math.floor(totalSeconds / 3600 / 24);
+    const hours = Math.floor(totalSeconds / 3600) % 24;
+    const minutes = Math.floor(totalSeconds / 60) % 60;
+    const seconds = Math.floor(totalSeconds) % 60;
+
+    document.getElementById('days').innerHTML = days + " días";
+    document.getElementById('hours').innerHTML = hours + " horas";
+    document.getElementById('minutes').innerHTML = minutes + " minutos";
+    document.getElementById('seconds').innerHTML = seconds + " segundos";
+}
+
+updateCountdown();
+setInterval(updateCountdown, 1000);
