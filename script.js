@@ -1,5 +1,5 @@
 function updateCountdown() {
-    const targetDate = new Date("2023-10-08 T00:00:00"); // Configura la fecha de destino aquí
+    const targetDate = new Date("2023-08-10 T00:00:00"); // Configura la fecha de destino aquí
     const currentDate = new Date();
     const totalSeconds = (targetDate - currentDate) / 1000;
 
