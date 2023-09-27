@@ -1,23 +1,23 @@
-body {
-    margin: 0;
-    overflow: hidden;
-    background-image: url('TARDEO DE JOHN 8 DE OCTUBRE.jpg');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-
 #countdown {
     text-align: center;
-    width: 60%; /* Ajusta el ancho del contenedor a un 60% del contenedor padre */
-    max-width: 400px; /* Establece un ancho máximo para el contenedor */
+    color: white;
+    font-size: 10px; /* Aumenta el tamaño de la fuente */
+    padding: 20px; /* Añade padding al contenedor */
+    width: 50%; /* Ajusta el ancho del contenedor a un 80% del contenedor padre */
+    max-width: 100px; /* Establece un ancho máximo para el contenedor */
+    font-size: 28px; /* Disminuye el tamaño de la fuente */
+    padding: 15px; /* Disminuye el padding del contenedor */
+    width: 60%; /* Disminuye el ancho del contenedor a un 60% del contenedor padre */
+    max-width: 400px; /* Disminuye el ancho máximo para el contenedor */
 }
 
-iframe {
-    border: none;
-    border-radius: 8px; /* Añade un borde redondeado al iframe */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil al iframe */
+#countdown div {
+    display: inline-block;
+    padding: 5px; /* Aumenta el padding de cada elemento */
+    padding: 15px; /* Disminuye el padding de cada elemento */
+    background-color: rgba(0,0,0,0.5);
+    margin: 10px;
+    border-radius: 10px;
+    margin: 8px; /* Disminuye el margen entre los elementos */
+    border-radius: 8px; /* Disminuye el borde redondeado de los cuadros */
 }
