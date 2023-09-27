@@ -10,7 +10,7 @@ body {
     min-height: 100vh;
 }
 
-#countdown-container {
+#countdown {
     text-align: center;
     color: white;
     font-size: 100px; /* Ajusta el tamaño de la fuente */
