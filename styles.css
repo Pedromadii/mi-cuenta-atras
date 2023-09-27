@@ -21,7 +21,7 @@ body {
 
 #countdown div {
     display: inline-block;
-    padding: 20px; /* Aumenta el padding de cada elemento */
+    padding: 5px; /* Aumenta el padding de cada elemento */
     background-color: rgba(0,0,0,0.5);
     margin: 10px;
     border-radius: 10px;
