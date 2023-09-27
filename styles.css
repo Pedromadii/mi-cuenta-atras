@@ -1,7 +1,7 @@
 body {
     margin: 0;
     overflow: hidden;
-    background-image: url('TARDEO DE JOHN 8 DE OCTUBRE.jpg'); /* Cambia a la URL de tu imagen de fondo */
+    background-image: url('TARDEO DE JOHN 8 DE OCTUBRE.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -10,18 +10,20 @@ body {
     min-height: 100vh;
 }
 
-#countdown-container {
+#countdown {
     text-align: center;
-    width: 300px;  /* Ajusta a la anchura deseada */
-    height: 200px; /* Ajusta a la altura deseada */
     color: white;
-    font-size: 100px; /* Ajusta el tamaño de la fuente */
+    font-size: 36px; /* Aumenta el tamaño de la fuente */
+    padding: 20px; /* Añade padding al contenedor */
+    width: 80%; /* Ajusta el ancho del contenedor a un 80% del contenedor padre */
+    max-width: 500px; /* Establece un ancho máximo para el contenedor */
 }
 
 #countdown div {
     display: inline-block;
-    padding: 200px;
+    padding: 20px; /* Aumenta el padding de cada elemento */
     background-color: rgba(0,0,0,0.5);
-    margin: 100px;
-    border-radius: 100px;
+    margin: 10px;
+    border-radius: 10px;
 }
+
