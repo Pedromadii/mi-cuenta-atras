@@ -10,10 +10,10 @@ function updateCountdown() {
     const minutes = Math.floor(totalSeconds / 60) % 60;
     const seconds = Math.floor(totalSeconds) % 60;
 
-    document.getElementById('days').innerHTML = days + " días";
-    document.getElementById('hours').innerHTML = hours + " horas";
-    document.getElementById('minutes').innerHTML = minutes + " minutos";
-    document.getElementById('seconds').innerHTML = seconds + " segundos";
+    document.getElementById('days').innerHTML = days + " DIAS";
+    document.getElementById('hours').innerHTML = hours + " HORAS";
+    document.getElementById('minutes').innerHTML = minutes + " MINUTOS";
+    document.getElementById('seconds').innerHTML = seconds + " SEGUNDOS";
 }
 
 updateCountdown();
