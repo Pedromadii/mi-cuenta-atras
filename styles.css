@@ -27,7 +27,7 @@ body {
     display: inline-block;
     padding: 5px; /* Aumenta el padding de cada elemento */
     padding: 15px; /* Disminuye el padding de cada elemento */
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(255,153,0,0.8);
     margin: 10px;
     border-radius: 10px;
     margin: 8px; /* Disminuye el margen entre los elementos */
