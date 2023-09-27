@@ -1,5 +1,7 @@
+const targetDate = new Date("2023-10-08T00:00:00Z"); // Z al final especifica la zona horaria UTC
+
 function updateCountdown() {
-    const targetDate = new Date("2023-10-08T00:00:00"); // Configura la fecha de destino aquí
+    const targetDate = new Date("2023-10-08T00:00:00Z"); // Configura la fecha de destino aquí
     const currentDate = new Date();
     const totalSeconds = (targetDate - currentDate) / 1000;
 
