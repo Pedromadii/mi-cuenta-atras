@@ -15,8 +15,8 @@ body {
     color: white;
     font-size: 10px; /* Aumenta el tamaño de la fuente */
     padding: 20px; /* Añade padding al contenedor */
-    width: 20%; /* Ajusta el ancho del contenedor a un 80% del contenedor padre */
-    max-width: 500px; /* Establece un ancho máximo para el contenedor */
+    width: 50%; /* Ajusta el ancho del contenedor a un 80% del contenedor padre */
+    max-width: 100px; /* Establece un ancho máximo para el contenedor */
 }
 
 #countdown div {
